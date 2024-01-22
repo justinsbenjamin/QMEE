@@ -18,3 +18,4 @@ ggplot(dimensionsEgg, aes(x=eggWidth, y=eggLength)) +
   ylim(46, 70) +
   theme_light()
 
+

@@ -1,6 +1,6 @@
 Egg sizes can vary within bird species species and within an individual based on the time of year, food availability, order in the laying period, and age. 
 Subsequently, the hatching and fledging rates may be correlated with egg sizes depending on the species. 
-Here I will be exploring the egg size (lengths and widths) of eggs from Pukekos (Porphyrio melanotus melanotus). 
+Here I will be exploring the egg size (lengths and widths) of eggs from Pukekos (*Porphyrio melanotus melanotus*). 
 Pukekos exhibit a very rare breeding behaviour known as joint-laying where more than 1 female may lay eggs in the same nest and collectively take care of the young.
 Pukekos live in kin groups woth linear dominance hierachy systems.
 Egg sizes and patterns vary between and within females laying in the nest but the females don't seem to show any preferences for their own eggs compared the others.

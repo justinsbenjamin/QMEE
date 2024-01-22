@@ -1,4 +1,4 @@
-# Date: Jan 12, 2023
+                                        # Date: Jan 12, 2023
 # Justin Benjamin
 # BIO 708: QMEE Winter 2024
 
@@ -7,7 +7,8 @@
 # More data and other variables will be added throughout
 # the next assignments and final project for further analyses. 
 
-install.packages("ggplot2")
+## BMB: don't install.packages() in a script
+## install.packages("ggplot2")
 library(ggplot2)
 
 eggLength <- Tawh_Egg_2015_JSB$Length
