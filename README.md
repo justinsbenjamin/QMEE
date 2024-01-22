@@ -1,3 +1,5 @@
+## JD: The answer to the question: what working directory should it be run from is _relative to the main directory of your repo_. Since your repo only has one directory so far, your answer should be: “the script is run from the main directory.” Similarly, if you use a read command, you should say something like `read("filename.csv")`; not something like `read("/Users/justinbenjamin/Desktop/McMaster/Courses/BIO 708/QMEE/filename.csv")`
+
 Egg sizes can vary within bird species species and within an individual based on the time of year, food availability, order in the laying period, and age. 
 Subsequently, the hatching and fledging rates may be correlated with egg sizes depending on the species. 
 Here I will be exploring the egg size (lengths and widths) of eggs from Pukekos (*Porphyrio melanotus melanotus*). 
