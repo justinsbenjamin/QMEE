@@ -4,12 +4,9 @@
 
 # This assignment uses GGplot to make some figures using my egg size data 
 
-setwd("/Users/justinbenjamin/Desktop/McMaster/Courses/BIO 708/QMEE")
-
 library(readxl)
 library(ggplot2)
 library(tidyr)
-library(ggdist)
 
 data <- read_xlsx("Tawh_Egg_2015_JSB.xlsx")
 
