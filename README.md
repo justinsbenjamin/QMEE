@@ -32,8 +32,18 @@ In terms of breaking down the project into replicable components, here are some 
 
 1. Documenting my steps along the way like using this README or commenting in my code.
 2. Version control using Git or RMarkdown. 
-3. Trying to automate repetitive tasks where possible (have excel or R do math and organization so I don't have to). This could include data fetching, 
-   preprocessing steps. This would enhance replicability and reduces human error.
+3. Trying to automate repetitive tasks where possible (have excel or R do math and organization so I don't have to). This could include data fetching, preprocessing steps. This would enhance replicability and reduces human error.
+
+
+
+I have uploaded my assignment 3 to my repository. The script is run from the main directory. I have run it from start to finish in a brand new R session
+and it ran smoothly without any errors. I have fixed some issues like including the readxl function and taking out unecessary code like install.packages
+from the script. I also made an edit to the script that is commited because I had some unecessary code in there.
+Here I am trying to show a few different ggplot figures. I have a scatterplot, a figure of faceted histograms, and a figure of faceted qqplots. 
+I am not sure if I have done the qqplot correctly so I may muck around and fix that at some point. 
+I decided to keep the figures simple because simplicity is key. The plots show the most critical information like the position of points within the scatterplot and qqplots and the lengths of bars in the histograms while excluding "extra" features like a bunch of colours and volumes and textures that are not quite as clear on their own. I really like faceted figures because they reduce the amount of code needed (i.e. don't have to copy paste text to make a bunch of individual figures). 
+
+
 
 
 
