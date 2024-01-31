@@ -46,6 +46,20 @@ I decided to keep the figures simple because simplicity is key. The plots show t
 
 
 
+MMV question:
+1% of the population has it and will test positive 100%
+5% of the population without it will test positive
+
+So 6% of people tested in this population will have a positive test but only 1/6 of those will actually have it. 
+Of those that test positive for MMV, 16.67% actually have it and the rest are false positives. 
+
+If my friend tests positive for MMV I will tell them that they likely don't have it but it is possible.
+I will also tell them that since they have a chance of having the disease that they should sit in during Thursday's lecture that will continue on statistical philosphy so that they can learn about their disease and learn some of the statistical techniques and whatnot to use in order to treat themselves. 
+I think I might have MMD myself and this week's material is the first part of my medical treatment. 
+
+
+
+
 
 
 
