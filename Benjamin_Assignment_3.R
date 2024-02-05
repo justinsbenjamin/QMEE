@@ -5,7 +5,8 @@
 # This assignment uses GGplot to make some figures using my egg size data 
 
 library(readxl)
-library(ggplot2)
+library(ggplot2); theme_set(theme_classic()) ## Use this to avoid repeating code
+
 library(tidyr)
 
 data <- read_xlsx("Tawh_Egg_2015_JSB.xlsx")
@@ -13,9 +14,9 @@ data <- read_xlsx("Tawh_Egg_2015_JSB.xlsx")
 # Scatterplot of egg dimensions
 ggplot(data, aes(x=Width, y=Length)) +
   geom_point() + 
-  labs(x = "Egg Width (mm)", y = "Egg Length (mm)") +
-  theme_classic() 
+  labs(x = "Egg Width (mm)", y = "Egg Length (mm)") 
 
+## JD: Why are you using gather() instead of pivot_longer()? – a missed learning opportunity
 # Reshape the data into a longer format
 reshaped_data <- data %>%
   gather(key = "Variable", value = "Value", Length, Width)
@@ -36,13 +37,5 @@ ggplot(mapping = aes(sample = Value)) +
   theme_classic() +
   facet_wrap(~ Variable, scales = "free")
 
-
-
-
-
-
-
-
-
-
-
+## JD: No discussion of graphical choices, which was part of the assignment
+## Grade 1.9
