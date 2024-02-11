@@ -59,6 +59,16 @@ I think I might have MMD myself and this week's material is the first part of my
 
 
 
+Hypothesis:
+Female pūkeko vary their investment into reproduction to prioritize the survival of earlier young.
+
+Predictions:
+Eggs are larger in the first clutch of the season than subsequent clutches
+The earlier laid eggs per female are larger than the later eggs
+Larger eggs have a greater hatching and survival success than smaller eggs
+Eggs laid by the dominant female will be larger than those laid by a subordinate female
+
+
 
 
 
