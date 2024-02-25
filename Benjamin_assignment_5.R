@@ -34,6 +34,8 @@ library(lme4)
 # I have both egg length and egg width as measures of egg size but I'm thinking
 # it might be easier to combine them into a single variable of size. 
 
+## JD: I mean, you certainly have enough data here to experiment with making a linear model. Also, the model below is a “mixed-effects” model, so more complicated than what we have in mind.
+
 data <- read_xlsx("Tawh_Egg_2015_JSB.xlsx")
 data
 
