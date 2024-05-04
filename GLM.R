@@ -17,7 +17,9 @@ Simulated_data <- read.csv("Simulated_Egg_Data.csv")
 Simulated_data <- Simulated_data %>%
                   mutate(Egg_size = Length + Width) %>%
                   mutate(Survival_success_all = ifelse(is.na(Survival_success), 0, Survival_success))
-Simulated_data
+
+## JD: Avoid big dumps in your output
+## Simulated_data
 
 # Hatching success model
 Hatching_model <- glm(Hatching_success ~ Egg_size + Clutch_number + Female + 
@@ -33,6 +35,7 @@ emm_contrasts_hatching <- emmeans(Hatching_model, specs = c("Egg_size", "Female"
                                           "Egg_order", "Clutch_number"))
 emm_contrasts_hatching
 # Based on the emmeans, female C looks wonky.
+## JD: Can you say a bit more about that?
 # There were only 2 eggs from female C in the data so it might be fine to take out.
 # There appears to be not be any large differences between females A and B or between
 # clutches 1 and 2. 
@@ -71,7 +74,8 @@ Survival_model_2 <- glm(Survival_success_all ~ Egg_size + Clutch_number + Female
 
 performance::check_model(Survival_model_2)
 
-emm_contrasts <- emmeans(model, specs = c("Egg_size", "Female", "Clutch_size", 
+## JD: I guess this is what you meant
+emm_contrasts <- emmeans(Survival_model_2, specs = c("Egg_size", "Female", "Clutch_size", 
                                           "Egg_order", "Clutch_number"))
 emm_contrasts
 
@@ -84,5 +88,5 @@ summary(Survival_model_2)
 # from the first clutch. I'm not sure how but the eggs within a nest are not independent of only the 
 # other eggs of that same female so maybe the mother ID would have to be included too. 
 
-
+## JD: Yes, they should, but as you say this is for learning. 2/3
 
